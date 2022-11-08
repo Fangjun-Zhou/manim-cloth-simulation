@@ -4,7 +4,7 @@ directories:
   # sourcecode generating that video
   mirror_module_path: False
   # Where should manim output video and image files?
-  output: ""
+  output: "E:\\Video\\Software Development\\Cloth Simulation\\Manim"
   # If you want to use images, manim will look to these folders to find them
   raster_images: ""
   vector_images: ""
@@ -23,7 +23,7 @@ style:
   text_alignment: "LEFT"
   background_color: "#333333"
 # Set the position of preview window, you can use directions, e.g. UL/DR/OL/OO/...
-# also, you can also specify the position(pixel) of the upper left corner of 
+# also, you can also specify the position(pixel) of the upper left corner of
 # the window on the monitor, e.g. "960,540"
 window_position: UR
 window_monitor: 0
@@ -41,4 +41,4 @@ camera_resolutions:
   high: "1920x1080"
   4k: "3840x2160"
   default_resolution: "high"
-fps: 30
+fps: 60
